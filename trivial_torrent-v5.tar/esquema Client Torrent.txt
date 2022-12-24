@@ -1,0 +1,33 @@
+WHILE ( recorremos todos los servidores (cada uno tiene su peer)) {
+
+ 	for( recorremos todos los bloques de nuestro archivo)
+	{
+		if ( no lo tenemos en memoria(hash incorrecto)) 
+			se lo pedimos al servidor que toque
+	}
+	if( archivo descargado completamente){
+		salimos del WHILE (flag)
+	}
+}
+
+
+
+https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/
+
+
+
+Server peer o Client peer, both that's no possible.
+
+
+While (recorremos los peers){
+	for (bloques del peer)
+	if (si hay bloque){
+		guardamos dicha información 
+		store in downloaded file
+	}
+	else{
+		do nothing
+	}
+	close connection with this peers
+}
+terminate
